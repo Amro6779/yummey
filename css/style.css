@@ -1,0 +1,206 @@
+body {
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* /////////////////////  side bar start /////////////////////// */
+
+.sidebar {
+    position: fixed;
+    z-index: 999;
+    width: 0;
+    overflow: hidden;
+}
+
+.sidebar .sidebar-content {
+    position: absolute;
+    top: 1.25rem;
+    left: 1.25rem;
+}
+
+.sidebar .sidebar-content .contact-text {
+    position: absolute;
+    bottom: -34.375rem;
+    width: 15rem;
+}
+
+.sidebar .sideIcons .sidelogo img {
+    width: 3.5rem;
+    position: relative;
+    top: 1.5625rem;
+}
+
+.sidebar .sideIcons .shareIcons i {
+    position: relative;
+    bottom: 1.5625rem;
+}
+
+.sidebar .sideIcons {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.sidebar .sideIcons .iconButton {
+    cursor: pointer;
+}
+
+
+/* ///////////////////////// side bar end //////////////////////////// */
+
+
+
+/* //////////////////////// food display start ///////////////////////// */
+
+#foodDisplay {
+    position: absolute;
+    top: 3rem;
+    left: 100px;
+}
+
+.food-img {
+    overflow: hidden;
+}
+
+#foodDisplay .food-img {
+    position: relative;
+    cursor: pointer;
+}
+
+#foodDisplay .food-img img {
+    width: 18.75rem;
+}
+
+#foodDisplay .food-img .layer {
+    position: absolute;
+    top: 110%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.7);
+    transition: top 500ms;
+}
+
+#foodDisplay .food-img:hover .layer {
+    top: 0;
+}
+
+
+/* //////////////////////// food display end ///////////////////////// */
+
+
+
+/* ///////////////////////  food Recipe start ////////////////////////// */
+
+#recipeDisplay .meal-img img {
+    width: 30rem;
+}
+
+#recipeDisplay .ingredents-list p {
+    width: 10%;
+}
+
+#recipeDisplay .tag p {
+    width: 10%;
+}
+
+
+/* ///////////////////////  food Recipe end ////////////////////////// */
+
+
+/* ////////////////////// category start ///////////////////////////// */
+
+#category {
+    position: absolute;
+    top: 3rem;
+    left: 100px;
+}
+
+#category .food-img {
+    position: relative;
+    cursor: pointer;
+    width: 18.5rem;
+}
+
+#category .food-img img {
+    width: 18rem;
+}
+
+#category .food-img .layer {
+    position: absolute;
+    top: 110%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 18rem;
+    background-color: rgba(255, 255, 255, 0.7);
+    transition: top 500ms;
+}
+
+#category .food-img:hover .layer {
+    top: 0;
+}
+
+/* ////////////////////// category end ///////////////////////////// */
+
+
+
+
+/* //////////////////////  area start ////////////////////////////// */
+
+#area {
+    position: relative;
+}
+
+#area .area-icon {
+
+    position: relative;
+    top: 3.125rem;
+    left: 244px;
+    float: left;
+    cursor: pointer;
+
+}
+
+.clr {
+    clear: both;
+}
+
+/* //////////////////////  area end ////////////////////////////// */
+
+
+/* /////////////////////   Ingredients start //////////////////////// */
+
+.ingredients-content{
+    position: relative;
+    top: 50px;
+    cursor: pointer;
+}
+
+/* /////////////////////   Ingredients end //////////////////////// */
+
+
+/* //////////////////////   form start ////////////////////////////// */
+
+#form .user-info{
+
+    position: relative;
+    top: 15rem;
+
+
+}
+
+#form button{
+    position: relative;
+    top: 17rem;
+    width: 10%;
+}
+
+
+/* //////////////////////   form end ////////////////////////////// */

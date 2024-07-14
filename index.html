@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet" /> -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="./css/all.min.css" />
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>js Exam</title>
+
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+</head>
+
+<body>
+
+  <!--////////////////////////// side bar start ////////////////////////// -->
+
+  <aside>
+    <div class="sidebar d-flex vh-100 bg-black">
+      <div class="sidebar-content text-white">
+        <div class="search-links d-flex flex-column">
+          <a href="#search" class="Search 5">Search</a>
+          <a href="#category" class="Categories my-2 4">Categories</a>
+          <a href="#area" class="Area 3">Area</a>
+          <a href="#Ingredients" class="Ingredients my-2 2">Ingredients</a>
+          <a href="#form" class="Contact 1">Contact Us</a>
+        </div>
+
+        <div class="contact-text">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-solid fa-globe"></i>
+          <p class="text-white">Copyright Â© 2019 All Rights Reserved.</p>
+        </div>
+      </div>
+
+      <div class="sideIcons bg-white text-center d-flex flex-column justify-content-between px-2">
+        <div class="sidelogo">
+          <img src="images/logo.png" alt="Logo">
+        </div>
+
+        <div class="iconButton">
+          <i class="fa-solid fa-bars fa-2x"></i>
+        </div>
+
+        <div class="shareIcons d-flex flex-column">
+          <i class="fa-solid fa-globe fa-1"></i>
+          <i class="fa-solid fa-share-nodes mt-1"></i>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- /////////////////////// side bar end /////////////////////////// -->
+
+
+  <!-- //////////////////////  food display start /////////////////////////// -->
+
+  <section id="foodDisplay">
+    <div class="container">
+      <div class="row py-4 gy-4  d-flex flex-row">
+        <div class="col-sm-12 col-md-3 card">
+          <div class="food-img">
+            <img src="" class="rounded-3" alt="meal">
+            <div class="layer rounded-3">
+              <h5 class="ms-1 fs-3 fw-bold position-relative top-50 start-0"></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- //////////////////////  food display end /////////////////////////// -->
+
+
+  <!-- //////////////////////   food Recipe start //////////////////////////-->
+
+  <section id="recipeDisplay" class="d-none">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <div class="meal-img mt-5 ms-5">
+            <img src="" class="rounded-3" alt="meal">
+          </div>
+          <h5 class="fs-2 fw-bold text-white ms-5"></h5>
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <div class="meal-recipe text-white mt-5">
+            <h2>Instructions</h2>
+            <p></p>
+
+            <p class="fs-2"><span class="fw-bold">Area :</span></p>
+            <p class="fs-2"><span class="fw-bold">Category :</span></p>
+            <div class="recipes">
+              <h2>Recipes :</h2>
+              <div class="ingredents-list me-5">
+
+              </div>
+            </div>
+
+            <div class="tag">
+              <span class="fs-2 fw-bold">Tags :</span>
+              <p class="bg-danger-subtle text-black my-3 p-2 rounded-3 ms-3"></p>
+            </div>
+
+            <div class="buttons">
+              <a href=""><button class="btn btn-outline-success">source</button></a>
+              <a href=""><button class="btn btn-outline-danger">youtube</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ////////////////////////  food Recipe end ////////////////////////// -->
+
+
+  <!--////////////////////////    search start  ///////////////////////////-->
+
+
+  <section id="search" class="d-none">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <input type="text" placeholder="search by name" id="foodName" class="bg-white rounded-2 p-2 w-100 mt-3" >
+        </div>
+        <div class="col-md-6">
+          <input type="text" placeholder="search by first litter" class="bg-white rounded-2 p-2 w-100 mt-3" >
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <!--///////////////////////      search end   ///////////////////////////-->
+
+
+
+  <!-- ///////////////////////    category start    /////////////////////////// -->
+  <section id="category" class="d-none">
+
+    <div class="container">
+      <div id="row" class="row py-4 gy-4  d-flex flex-row">
+        <div class="col-sm-12 col-md-3">
+          <div class="food-img rounded-3">
+            <img src="" class="rounded-3" alt="">
+            <div class="layer rounded-3">
+              <h5 class="ms-1 fs-3 fw-bold position-relative top-0 start-0 text-center"></h5>
+              <p class="text-center"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- ///////////////////////    category end    /////////////////////////// -->
+
+
+  <!-- ///////////////////////    area start     /////////////////////////////-->
+
+  <section id="area" class="d-none">
+    <div class="container">
+      <div id="area" class="row">
+        <div class="col-sm-12 col-md-3">
+          <div class="area-icon">
+            <i class="fa-solid fa-house-laptop fa-4x text-white"></i>
+            <p class="text-white text-center"></p>
+          </div>
+          <div class="clr"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ///////////////////////    area end     /////////////////////////////-->
+
+
+
+  <!-- ///////////////////////    Ingredients start     /////////////////////////////-->
+
+
+  <section id="Ingredients" class="d-none">
+    <div class="container">
+      <div id="ingredient" class="row">
+        <div class="col-sm-12 col-md-3">
+          <div class="ingredients-content text-white text-center">
+            <i class="fa-solid fa-drumstick-bite fa-4x"></i>
+            <h5 class="fs-3"></h5>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ///////////////////////    Ingredients end     /////////////////////////////-->
+
+
+  <!-- ///////////////////////    form start  ///////////////////////////-->
+
+  <section id="form" class="d-none">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <div class="user-info d-flex flex-column">
+            <input type="text" placeholder="Enter your Name" id="name" class="bg-white rounded-2 p-2">
+            <div class="alert alert-danger p-3 mt-2 text-center d-none">  Special characters and numbers not allowed </div>
+            <input type="number" placeholder="Enter your phone number" id="phone" class="bg-white my-3 rounded-2 p-2">
+            <div class="alert alert-danger p-3 mt-2 text-center d-none">  Enter valid Phone Number </div>
+            <input type="password" placeholder="Enter your password" id="password" class="bg-white rounded-2 p-2">
+            <div class="alert alert-danger p-3 mt-2 text-center d-none">  Enter valid password *Minimum eight characters, at least one letter and one number:* </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <div class="user-info d-flex flex-column">
+            <input type="email" placeholder="Enter your email" id="email" class="bg-white rounded-2 p-2">
+            <div class="alert alert-danger p-3 mt-2 text-center d-none">  Email not valid *exemple@yyy.zzz </div>
+            <input type="number" placeholder="Enter your age" id="age" class="bg-white my-3 rounded-2 p-2">
+            <div class="alert alert-danger p-3 mt-2 text-center d-none">  Enter valid age </div>
+            <input type="password" placeholder="Repassword" id="repassword" class="bg-white rounded-2 p-2">
+            <div class="alert alert-danger p-3 text-center mt-2 d-none">  Enter valid repassword </div>
+          </div>
+        </div>
+        <button id="btn" class="btn btn-outline-danger mt-3 mx-auto disabled">Submit</button>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- ///////////////////////    form end  ///////////////////////////-->
+
+
+
+
+
+
+
+
+
+
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
